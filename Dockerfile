@@ -1,4 +1,4 @@
-FROM golang:12.7.0-alpine3.10
+FROM golang:1.16.3-alpine3.13
 
 COPY go.mod /app/
 COPY go.sum /app/
